@@ -39,6 +39,8 @@ GameObject:
   - component: {fileID: 33999879287275482}
   - component: {fileID: 23785633196079840}
   - component: {fileID: 135281324317301770}
+  - component: {fileID: 114869264806829724}
+  - component: {fileID: 114995393933526812}
   m_Layer: 0
   m_Name: player
   m_TagString: player
@@ -2389,6 +2391,32 @@ MonoBehaviour:
   instantiationId: -1
   currentMasterID: -1
   isRuntimeInstantiated: 0
+--- !u!114 &114869264806829724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054869488476200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerId: 0
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  synchronization: 3
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 114995393933526812}
+  ObservedComponentsFoldoutOpen: 1
+  viewIdField: 0
+  instantiationId: -1
+  currentMasterID: -1
+  isRuntimeInstantiated: 0
 --- !u!114 &114872119591963320
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2506,6 +2534,19 @@ MonoBehaviour:
   instantiationId: -1
   currentMasterID: -1
   isRuntimeInstantiated: 0
+--- !u!114 &114995393933526812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054869488476200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8913e81ffa44124fbf40d971e7d6c7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_speed: 3
+  m_colorSpeed: 1
 --- !u!124 &124324591059589804
 Behaviour:
   m_ObjectHideFlags: 1
