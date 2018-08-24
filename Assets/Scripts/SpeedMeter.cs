@@ -34,7 +34,8 @@ public class SpeedMeter : MonoBehaviour {
         float speeds = (x * x) + (y * y) + (z * z);
         int t = Mathf.FloorToInt(speeds);
 
-        print(t);
+        //速度表示
+        //print("速度は、" + t);
 
         gaugeTime = Time.deltaTime * 1f;
         if (0 < t) {
@@ -58,7 +59,7 @@ public class SpeedMeter : MonoBehaviour {
     }
 
 
-
+    //速度によってメータを変化させる
     void speedMater(float m){
 
         gauge.rectTransform.localPosition =

@@ -7,6 +7,10 @@ TagManager:
   - player
   - PlayerBox
   - GoalArea
+  - Button
+  - FieldItem
+  - Equipment
+  - Quad
   layers:
   - Default
   - TransparentFX

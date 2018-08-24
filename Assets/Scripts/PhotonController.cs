@@ -6,22 +6,9 @@ public class PhotonController : MonoBehaviour {
 
     public GameObject playerBox;
 
-    void Start()
-    {
-        PhotonNetwork.ConnectUsingSettings("0.1");
+    
 
-    }
-
-    void OnJoinedLobby()
-    {
-        PhotonNetwork.JoinRandomRoom();
-    }
-
-    void OnPhotonRandomJoinFailed()
-    {
-        PhotonNetwork.CreateRoom(null);
-    }
-
+    //部屋に入った時に呼ばれる
     void OnJoinedRoom()
     {
         PhotonNetwork.Instantiate(
@@ -30,8 +17,5 @@ public class PhotonController : MonoBehaviour {
             Quaternion.identity,
             0
          );
-
-        //GameObject mainCamera = GameObject.FindWithTag("MainCamera");
-        //mainCamera.GetComponent<ThirdPersonCamera>().enabled = true;
     }
 }

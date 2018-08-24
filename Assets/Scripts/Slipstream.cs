@@ -140,7 +140,8 @@ public class Slipstream : Photon.MonoBehaviour{
         if (ppX < 2){
             //rigidbody型
             //player.GetComponent<Rigidbody>().AddForce(transform.right * 0.1f, ForceMode.Impulse);
-            //transform型
+            
+            //transform型でいいのか？？？？？
             player.transform.Translate(0.05f, 0, 0);
         }
     }
