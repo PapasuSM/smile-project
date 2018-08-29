@@ -1409,6 +1409,7 @@ GameObject:
   - component: {fileID: 1657908092}
   - component: {fileID: 1657908091}
   - component: {fileID: 1657908090}
+  - component: {fileID: 1657908094}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -1485,6 +1486,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657908094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1657908089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91db87e0f8015104db29a094d7d63755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dive_Camera: {fileID: 0}
+  basket: {fileID: 0}
+  reticle: {fileID: 0}
+  basketGauge: {fileID: 0}
+  ui: {fileID: 0}
+  e_Parasol: {fileID: 0}
+  e_Cracker: {fileID: 0}
+  i_Parasol: {fileID: 0}
+  i_Cracker: {fileID: 0}
+  i_Para_Gauge: {fileID: 0}
+  i_Crac_Gauge: {fileID: 0}
 --- !u!1 &1722846236
 GameObject:
   m_ObjectHideFlags: 0
