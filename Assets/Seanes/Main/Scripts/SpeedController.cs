@@ -14,7 +14,11 @@ public class SpeedController : Photon.MonoBehaviour{
     float streamBonus = 1;
     int n = 0;
 
-    
+    float dcrX;
+    float dcrY;
+    float dcrZ;
+
+
     void Start()
     {
         
@@ -76,14 +80,11 @@ public class SpeedController : Photon.MonoBehaviour{
         if (!(photonView.isMine))
         {
             return;
-        }
+        }        
 
-        //子オブジェクトのDiveCameraをアクティブにする
-
-
-        float dcrX = diveCamera.localRotation.x;
-        float dcrY = diveCamera.localRotation.y;
-        float dcrZ = diveCamera.localRotation.z;
+        dcrX = diveCamera.localRotation.x;
+        dcrY = diveCamera.localRotation.y;
+        dcrZ = diveCamera.localRotation.z;
 
         //レーン変更
         if (dcrZ >= 0.25f){

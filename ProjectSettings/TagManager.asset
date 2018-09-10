@@ -11,6 +11,8 @@ TagManager:
   - FieldItem
   - Equipment
   - Quad
+  - panel
+  - Quad1
   layers:
   - Default
   - TransparentFX

@@ -12,10 +12,6 @@ public class PhotonController : MonoBehaviour {
     void OnJoinedRoom()
     {
         PhotonNetwork.Instantiate(
-            playerBox.name,
-            new Vector3(0f, 0f, 1f),
-            Quaternion.identity,
-            0
-         );
+            playerBox.name, new Vector3(0f, 0f, 1f), Quaternion.identity, 0);
     }
 }

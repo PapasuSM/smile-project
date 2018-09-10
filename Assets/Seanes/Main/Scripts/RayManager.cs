@@ -65,7 +65,7 @@ public class RayManager :　Photon.MonoBehaviour {
             //レイが当たってるゲームオブジェクトの名前と場所をプリント
             //GameObject selestedObj = hit.collider.gameObject;
             //print("name: " + selestedObj.name + selestedObj.transform.position);            
-        }
+        }//大きくくくった方がよいかも
 
         //ヒットしたコライダーのタグがQuadだったら
         //
